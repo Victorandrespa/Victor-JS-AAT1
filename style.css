@@ -1,0 +1,203 @@
+
+@media only screen and (max-width: 500px) {
+    .tablaEmpleados {
+        margin-top: 100px;
+    }
+    .logo52 {
+        margin-top: 100px;
+    }
+ }
+
+
+/* Nav Bar */
+
+.mt-navbar {
+    margin-top: 75px;
+    /* valor base */
+}
+.mi-div {
+    background-color: var(--bs-primary-bg-subtle);
+}
+
+
+/* Pagina INDEX  */
+
+.container-fluid {
+    max-width: 1500px;
+}
+
+.mapaFrame {
+    height: auto;
+    min-height: 350px;
+    max-height: 1500px;
+    padding: 3px;
+    border-style: solid;
+    border-color: rgb(160, 211, 231);
+}
+
+.mapaFrame:hover {
+    border-color: gold;
+}
+
+.listaDesordenada,
+h5 {
+    font-weight: 500;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+}
+
+
+/* Pagina Calculo Sueldo  */
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.fila strong {
+    font-weight: bold;
+}
+
+
+/* Indemnizacion  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Botones Dinamicos */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+.one:hover {
+    animation-name: bounce;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    25%,
+    75% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+.two:hover {
+    animation-name: wiggle;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    25%,
+    75% {
+        transform: translate(10px, 0);
+    }
+
+    50% {
+        transform: translate(-10px, 0);
+    }
+}
+.three:hover {
+    animation-name: stretch;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes stretch {
+
+    0%,
+    100% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(1.3);
+    }
+}
+.four:hover {
+    animation-name: tilt;
+    animation-duration: .4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes tilt {
+
+    0%,
+    100% {}
+
+    50% {
+        transform: rotate(15deg);
+    }
+}
+.five:hover {
+    animation-name: slant;
+    animation-duration: .4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes slant {
+
+    0%,
+    100% {}
+
+    50% {
+        transform: skew(-50deg, 5deg);
+    }
+}
